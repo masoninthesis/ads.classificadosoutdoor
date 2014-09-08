@@ -1,0 +1,329 @@
+/* 
+    Document   : Classicraft Language RTL
+    Created on : 4 Jun 2013, 3:00:12 PM
+    Author     : Inkthemes
+    Description: Classicraft Language RTL
+       
+*/
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: right;
+}
+p {
+	text-align: right;
+}
+blockquote {
+	background-position:right;
+}
+ol {
+	direction:rtl;
+}
+ol li {
+	list-style:decimal;
+}
+ul {
+	direction:rtl;
+}
+ul li {
+	margin-left:0;
+}
+
+/* Top user access*/
+.top_header #user_acces {
+float: right;
+float: left;
+}
+/* For logo*/
+.header .grid_16 {
+float: right;
+text-align: right;
+}
+/* post ads*/
+.header .grid_8 {
+float:left;
+text-align:left;
+}
+.header .post_add_btn {
+float: left;
+}
+
+/* Form main menu */
+#menu .ddsmoothmenu li {
+float: right;
+}
+
+/* Home page Advance search */
+.search_wrapper .search_item.first {
+float: right;
+margin-right:0;
+}
+.search_wrapper .search_item.first {
+ background-position:right 3px center;
+}
+.search_wrapper .search_item.first input[type="text"] {
+text-align: right;
+padding-right:10px;
+}
+.search_wrapper .search_item.second {
+float: right;
+}
+.search_wrapper .search_item.third {
+float: left;
+text-align:right;
+}
+.search_wrapper .search_item.third {
+background-position: right center;
+text-align:right;
+}
+.search_wrapper .search_item.third input[type="text"] {
+text-align: right;
+padding-right:20px;
+}
+.search_wrapper .search_item.third .search_submit {
+right: 245px;
+}
+
+ul.list .thumbs img {
+float: right;
+margin-left:20px;
+}
+
+ul.list .thumbs .thumb_item {
+float: left;
+text-align: center;
+}
+
+/* Home page Grid View */
+ul.grid .thumbnail .thumbs img {
+float: right;
+margin-left:20px;
+}
+ul.grid .thumbnail .thumbs .thumb_item .price {
+margin-right: 20px;
+}
+
+/*Blog post meta */
+.content_wrapper .content .post .post_meta {
+}
+.content_wrapper .content .post .post_meta li{
+display: inline-block;
+margin-right: 10px;
+padding-left: 15px;
+}
+
+ul.list li.thumbnail .post_meta li {
+display: inline;
+margin-right: 10px;
+padding-left: 15px;
+display: inline-block;
+}
+
+/*pagination */
+.paginate li {
+float: right;
+}
+
+/* footer */
+.footer .footer_widget #searchform {
+float: right;
+}
+.footer .footer_widget #searchform input[type="text"] {
+text-align: right;
+padding-right:10px;
+}
+.footer_bottom .container_24 .grid_12.alpha {
+float:right;
+}
+
+.footer_bottom .container_24 .grid_12.omega {
+float:left;
+}
+
+
+.footer_bottom .copyright {
+float: left;
+}
+/* contact page */
+form#contactForm.contactform{
+float: right;
+}
+
+#contact #contactForm input[type="text"] {
+text-align:right;
+padding-right:10px;
+}
+#contact #contactForm textarea {
+text-align:right;
+padding-right:10px;
+}
+#contact #contactForm input[type="submit"] {
+float: right;
+}
+
+#contact label{
+float:right;
+}
+/* Contact Widget*/
+.contact_widget .subscribe_form .form_element input[type="text"] {
+text-align: right;
+padding-right:10px;
+}
+.contact_widget .subscribe_form .form_element textArea {
+text-align:right;
+padding-right:10px;
+}
+.contact_widget .subscribe_form .form_element input[type="text"] {
+text-align: right;
+padding-right:10px;
+}
+
+.show_captcha {
+float: right;
+}
+/*sidebar search*/
+.sidebar #searchform input[type="text"], .content #searchform input[type="text"] {
+text-align: right;
+padding-right:10px;
+}
+/* Blog Page */
+.content_wrapper .content .post img{
+width:100%;
+}
+
+.content_wrapper .content .post .postimg {
+float:right;
+margin-left:15px;
+margin-right: 0;
+}
+/* Comment form */
+form#commentform{
+text-align:right;
+}
+#comment-form{
+float:right;
+}
+#commentform input[type="text"] {
+display:inline-block;
+text-align:right;
+padding-right:10px;
+}
+ol.commentlist li.comment .comment-author .avatar {
+float: right;
+margin-left:20px;
+}
+ol.commentlist li.comment .comment-body {
+padding-right: 0;
+padding-left:20px;
+}
+
+ol.commentlist li.comment .reply {
+padding-bottom: 12px;
+}
+textarea#comment {
+text-align:right;
+}
+/* Contact Widget */
+.contact_widget .subscribe_form .contact_header {
+padding-left: 0;
+}
+/*Login & Registration page */
+#add_post .label, #loginform .label, #register .label {
+clear: both;
+margin-bottom: 5px;
+float: right;
+}
+#loginform .row input[type="text"], #loginform .row input[type="password"], #register .row input[type="password"], #register .row input[type="text"] {
+text-align: right;
+padding-right:10px;
+}
+#register input[type="submit"] {
+float: right;
+}
+#loginform input[type="submit"] {
+float: right;
+}
+
+
+/* add new classified ads */
+#add_post .row input[type="text"], #add_post .row input[type="password"], #add_post .row select {
+float: right;
+text-align:right;
+padding-right:10px;
+}
+
+#categories .catcol ul li.cat-item {
+direction: ltr;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+.search_wrapper .search_item.first input[type="text"] {
+}
+.search_wrapper .search_item.second {
+margin-right: 30px !important;
+}
+.search_wrapper .search_item.third .search_submit {
+right: 188px !important;
+}
+#loginform .row input[type="text"], #loginform .row input[type="password"], #register .row input[type="password"], #register .row input[type="text"] {
+width: 338px;
+}
+.footer .footer_widget #searchform input[type="text"] {
+width: 115px;
+}
+.sidebar #searchform input[type="text"], .content #searchform input[type="text"] {
+width: 180px
+}
+
+ul.grid {
+width: 600px;
+}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.search_wrapper .search_item.third .search_submit {
+right: 188px;
+}
+
+}
+
+@media only screen and ( max-width: 768px ) {
+.search_wrapper .search_item.second {
+float: right;
+margin-right: 0;
+}
+.search_wrapper .search_item.third .search_submit {
+right: 378px;
+}
+ul.grid {
+width: 430px;
+}
+}
+@media only screen and (max-width: 480px) {
+.search_wrapper .search_item.second {
+float: right;
+margin-right: 0;
+}
+.search_wrapper .search_item.third .search_submit {
+right:240px;
+}
+#tabs a {
+float:none;
+}
+ul.grid {
+width: 430px;
+}
+}
+
+@media only screen and (max-width: 320px){
+.search_wrapper .search_item.third {
+width: 266px;
+}
+#tabs a {
+float:none;
+}
+ul.grid {
+width: 290px;
+}
+}

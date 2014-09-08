@@ -1,0 +1,64 @@
+a {
+    color: #5e8309;
+}
+a:hover{
+    color:#84b70e;
+}
+.menu_wrapper{
+    background: url('images/menu-green-bg.png') #5e8309 repeat-x;  
+}
+#menu .ddsmoothmenu li {
+    background: url('images/menu-line-green.png') no-repeat right;
+}
+#menu .ddsmoothmenu li li {
+    background: #5e8309;
+}
+#menu .ddsmoothmenu li li a.selected, 
+#menu .ddsmoothmenu li li a:hover {
+    background:#84b70e;
+}
+#categories .catcol ul li.maincat {
+    border-bottom:2px solid #5e8309;
+}
+#categories .catcol ul li.cat-item a {
+    color: #5e8309;
+}
+#categories .catcol ul li.cat-item a:hover{
+    color: #84b70e;
+}
+.sidebar .sidebar_widget .sidebar_thumbnail h6 a{
+    color: #5e8309; 
+}
+.sidebar .sidebar_widget .sidebar_thumbnail h6 a:hover{
+    color: #84b70e;
+}
+.footer_wrapper{
+    background-color: #57780b;
+}
+.footer .footer_widget .head{
+    color:#fff;
+    background: url('images/footer-border-green.png') bottom repeat-x;
+}
+.footer,
+.footer a{
+    color: #f9fbf4;
+}
+.footer .footer_widget #searchform{
+    background: url('images/search-bg-green.png') no-repeat;
+}
+.footer_bottom{
+    background: #3a5202;
+    color: #edfbcb;
+}
+#mobile_menu {
+    background: #5f8509;
+}
+.it_mobile_menu li{
+    background: #5f8509 url('images/green-border.png') bottom repeat-x !important;
+}
+.it_mobile_menu li:hover{
+    background-color: #759b20 !important;
+}
+.search_wrapper .search_item .dk_container a:hover{
+    color:#5f8509;
+}
