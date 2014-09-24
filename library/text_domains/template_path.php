@@ -42,8 +42,8 @@ define('C_WEBSITE',__('Página Web',THEME_SLUG));
 define('OPTIONAL',__('(Opcional)',THEME_SLUG));
 define('UR_MSG',__('Tu mensaje',THEME_SLUG));
 //taxonomy-tag.php
-define('GIRD_VIEW',__('GRID VIEW',THEME_SLUG));
-define('LIST_VIEW',__('LIST VIEW',THEME_SLUG));
+define('GIRD_VIEW',__('Grid',THEME_SLUG));
+define('LIST_VIEW',__('Lista',THEME_SLUG));
 define('RECENTLY_LISTED',__('RECIEN LISTADOS',THEME_SLUG));
 define('FEATURED_ADS',__('ANUNCIOS PREMIUM',THEME_SLUG));
 define('POPULAR_ADS',__('ANUNCIOS POPULARES',THEME_SLUG));
