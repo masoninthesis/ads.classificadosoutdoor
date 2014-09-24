@@ -49,10 +49,10 @@ define('FEATURED_ADS',__('ANUNCIOS PREMIUM',THEME_SLUG));
 define('POPULAR_ADS',__('ANUNCIOS POPULARES',THEME_SLUG));
 define('AGO',__('ago',THEME_SLUG));
 define('BY','by');
-define('VIEW_IT',__('¡Míralo!',THEME_SLUG));
+define('VIEW_IT',__('&#161;M&#237;ralo!',THEME_SLUG));
 //multiple_search.php
-define('SEARCH1',__('¿Que buscas?',THEME_SLUG));
-define('SEARCH2',__('Código Postal, Ciudad o Dirección',THEME_SLUG));
+define('SEARCH1',__('&#191;Que buscas?',THEME_SLUG));
+define('SEARCH2',__('C&#243;digo Postal, Ciudad o Dirección',THEME_SLUG));
 define('SEARCH',__('buscar',THEME_SLUG));
 define('PAGE',__('Pagina',THEME_SLUG));
 define('AD_POST',__('PUBLICA AHORA GRATIS',THEME_SLUG));
