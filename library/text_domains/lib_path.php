@@ -23,10 +23,10 @@ define('TMP_FILE',__('Temparory File',THEME_SLUG));
 define('LEAD_DELTD',__('A lead has been deleted',THEME_SLUG));
 define('AD_LEAD',__('Classified Leads',THEME_SLUG));
 define('S_NO',__('S.No.',THEME_SLUG));
-define('NM',__('Name',THEME_SLUG));
+define('NM',__('Nombre',THEME_SLUG));
 define('EMAIL_AD',__('Email Address',THEME_SLUG));
 define('POST_AUTHOR',__('Post Author',THEME_SLUG));
-define('MSG',__('Message',THEME_SLUG));
+define('MSG',__('Mensaje',THEME_SLUG));
 define('ACTION',__('Action',THEME_SLUG));
 define('NO_LEAD_MSG',__('You currently have no leads',THEME_SLUG));
 define('ITMS',__('Items',THEME_SLUG));
@@ -51,7 +51,7 @@ define('PAID_DATE',__('Paid Date',THEME_SLUG));
 define('NO_TRANS_FOUND',__('No transactions found.',THEME_SLUG));
 //dashboard.php
 define('UR_ADS',__('Your Ads',THEME_SLUG));
-define('VIEWS',__('Views',THEME_SLUG));
+define('VIEWS',__('Visitas',THEME_SLUG));
 define('STATUS',__('Status',THEME_SLUG));
 //dashboard_function.php
 define('MMBR_SINCE',__('Member Since :',THEME_SLUG));
@@ -93,7 +93,7 @@ define('LAST_NAME_DES',__('Your last name.',THEME_SLUG));
 define('NICK_NM',__('Nick Name:',THEME_SLUG));
 define('NICK_NM_DES',__('Your nick name.',THEME_SLUG));
 define('UR_EMAIL',__('Your Email:',THEME_SLUG));
-define('UR_EMAIL_DES',__('Your email (Required).',THEME_SLUG));
+define('UR_EMAIL_DES',__('Your email (requerida).',THEME_SLUG));
 define('WEBSITE',__('Website:',THEME_SLUG));
 define('WEBSITE_DES',__('Your website.',THEME_SLUG));
 define('AIM',__('Aim:',THEME_SLUG));
@@ -134,7 +134,7 @@ define('EMAIL_ERR',__('You entered an invalid email address.',THEME_SLUG));
 define('ENTER_MSG',__('Please enter a message.',THEME_SLUG));
 define('ENTER_CAPTCHA',__('Enter valid captcha.',THEME_SLUG));
 define('EMAIL',__('Email',THEME_SLUG));
-define('ETR_CAPTCHA',__('Enter Captcha',THEME_SLUG));
+define('ETR_CAPTCHA',__('Ingrese Captcha',THEME_SLUG));
 define('LEAD_NOTIFY',__('Your query has been sent',THEME_SLUG));
 //Theme_functions.php
 define('DATA_REMOVE_NOTIFY',__('All Dummy data has been removed from your database successfully!',THEME_SLUG));
@@ -203,7 +203,7 @@ define('ACTIVE',__('Active',THEME_SLUG));
 define('ACTIVE_DES',__('This setting activates/de-activates the custom field in the front-end and the back-end.',THEME_SLUG));
 define('NO',__('No',THEME_SLUG));
 define('YES',__('Yes',THEME_SLUG));
-define('REQUIRED',__('(required)',THEME_SLUG));
+define('REQUIRED',__('(requerida)',THEME_SLUG));
 define('REQUIRED_DES',__('Specify whether or not this field is required to be filled in compulsarily by users.',THEME_SLUG));
 define('SHOW_DETAIL_PAGE',__('Show on detail page?',THEME_SLUG));
 define('SHOW_DETAIL_PAGE_DES',__('Specify whether or not this field be shown on the ‘Detail page’.',THEME_SLUG));
@@ -224,8 +224,8 @@ define('TAGS_DES',__('Tags are short keywords. with comas no space within. Up to
 //step2_package.php
 define('SELECT_PACKAGE',__('Select Package',THEME_SLUG));
 define('GO_BACK',__('Go Back',THEME_SLUG));
-define('SUBMIT',__('Submit',THEME_SLUG));
-define("CONTACT_PERSON", __("Contact This Person",THEME_SLUG));
+define('SUBMIT',__('Publicar',THEME_SLUG));
+define("CONTACT_PERSON", __("Contacto",THEME_SLUG));
 //revision 1 
 //cc_transaction.php
 define('PMT_TRANSACTION', "Payment Transaction");

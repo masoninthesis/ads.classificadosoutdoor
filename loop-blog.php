@@ -19,7 +19,7 @@ if (have_posts()) :
                 <?php the_excerpt(); ?>
                 <div class="clear"></div>
                 <ul class="post_meta">
-                    <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' Ago'; ?></li>
+                    <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' Hace'; ?></li>
                     <li class="cate"><?php the_category(', '); ?></li>
                     <li class="author"><a href="#"><?php the_author_posts_link(); ?></a></li>
                 </ul>

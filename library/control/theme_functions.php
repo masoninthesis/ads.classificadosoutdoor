@@ -219,9 +219,9 @@ function cc_getPostViews($postID) {
     if ($count == '') {
         delete_post_meta($postID, $count_key);
         add_post_meta($postID, $count_key, '0');
-        return "0 " . VIEW;
+        return "0 " . Vista;
     }
-    return $count . ' ' . VIEWS;
+    return $count . ' ' . Visitas;
 }
 
 // function to count views.
@@ -700,10 +700,10 @@ function cc_set_expiry($post_id, $pkg_type = '') {
             $ad_length = $ad_length * 365;
         }
         if ($q->package_type == 'pkg_free' && $pkg_type == 'pkg_free') {
-            $free_ad_duration = date_i18n('m/d/Y H:i:s', strtotime('+' . $ad_length . ' days'));
+            $free_ad_duration = date_i18n('m/d/Y H:i:s', strtotime('+' . $ad_length . ' días'));
             add_post_meta($post_id, 'cc_listing_duration', $free_ad_duration, true);
         } elseif ($q->package_type == 'pkg_one_time' && $pkg_type == 'pkg_one_time') {
-            $onetime_ad_duration = date_i18n('m/d/Y H:i:s', strtotime('+' . $ad_length . ' days'));
+            $onetime_ad_duration = date_i18n('m/d/Y H:i:s', strtotime('+' . $ad_length . ' días'));
             add_post_meta($post_id, 'cc_listing_duration', $onetime_ad_duration, true);
         } elseif ($q->package_type == 'pkg_recurring' && $pkg_type == 'pkg_recurring') {
             //Calculate first billing period
@@ -725,7 +725,7 @@ function cc_set_expiry($post_id, $pkg_type = '') {
                 $second_billing_cycle = $q->second_billing_per;
             }
             $ad_length = $second_billing_cycle + $first_billing_cycle;
-            $recurring_ad_duration = date_i18n('m/d/Y H:i:s', strtotime('+' . $ad_length . ' days'));
+            $recurring_ad_duration = date_i18n('m/d/Y H:i:s', strtotime('+' . $ad_length . ' días'));
             add_post_meta($post_id, 'cc_listing_duration', $recurring_ad_duration, true);
         }
     }
@@ -750,7 +750,7 @@ function cc_has_ad_expired($post_id) {
             //After expired, listing will be set premium to free listing
             $listing_type = get_post_meta($post_id, 'cc_add_type', true);
             if ($listing_type == "pro") {
-                update_post_meta($post_id, 'cc_add_type', 'free');
+                update_post_meta($post_id, 'cc_add_type', 'libre');
             }
             return true;
         endif;
@@ -764,13 +764,13 @@ function cc_timeleft($theTime) {
 
     $days_label = __('days', THEME_SLUG);
     $day_label = __('day', THEME_SLUG);
-    $hours_label = __('hours', THEME_SLUG);
-    $hour_label = __('hour', THEME_SLUG);
+    $hours_label = __('horas', THEME_SLUG);
+    $hour_label = __('horas', THEME_SLUG);
     $mins_label = __('mins', THEME_SLUG);
     $min_label = __('min', THEME_SLUG);
-    $secs_label = __('secs', THEME_SLUG);
-    $r_label = __('remaining', THEME_SLUG);
-    $expired_label = __('This ad has expired', THEME_SLUG);
+    $secs_label = __('segs', THEME_SLUG);
+    $r_label = __('restante', THEME_SLUG);
+    $expired_label = __('Este anuncio ha caducado', THEME_SLUG);
 
     if ($timeLeft > 0) {
         $days = floor($timeLeft / 60 / 60 / 24);

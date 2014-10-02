@@ -86,7 +86,7 @@ if (!isset($_REQUEST['rtype']) && $_REQUEST['rtype'] == '') {
                                             <?php the_excerpt(); ?>
                                             <div class="clear"></div>
                                             <ul class="post_meta">
-                                                <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ago'; ?></li>
+                                                <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' hace'; ?></li>
                                                 <li class="cate"><?php echo $taxonomies; ?></li>
                                                 <li class="author"><?php echo BY; ?>&nbsp;<?php the_author_posts_link(); ?></li>
                                             </ul>
@@ -149,7 +149,7 @@ if (!isset($_REQUEST['rtype']) && $_REQUEST['rtype'] == '') {
                                             <?php the_excerpt(); ?>
                                             <div class="clear"></div>
                                             <ul class="post_meta">
-                                                <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ago'; ?></li>
+                                                <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' hace'; ?></li>
                                                 <li class="cate"><?php echo $taxonomies; ?></li>
                                                 <li class="author"><?php echo BY; ?>&nbsp;<?php the_author_posts_link(); ?></li>
                                             </ul>

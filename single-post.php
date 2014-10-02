@@ -24,7 +24,7 @@ get_header();
                                     </h1>
                                     <?php the_content(); ?>
                                     <ul class="post_meta">
-                                        <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . AGO; ?></li>
+                                        <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . HACE; ?></li>
                                         <li class="cate"><?php the_category(', '); ?></li>
                                         <li class="author"><a href="#"><?php comments_popup_link('0 Comments.', '1 Comment.', '% Comments.'); ?></a></li>
                                     </ul>

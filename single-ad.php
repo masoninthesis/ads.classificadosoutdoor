@@ -25,7 +25,7 @@
                                     echo get_post_meta($post->ID, 'cc_price', true);
                                     ?></span><span class="price_right"></span></span> <?php } ?>
                                     <ul class="post_meta">
-                                        <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . AGO; ?></li>
+                                        <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . hace; ?></li>
                                         <li class="cate"><?php printf(__('In&nbsp;', THEME_SLUG) . '%s', $taxonomies); ?></li>
                                         <li class="author"><?php echo BY; ?>&nbsp;<?php the_author_posts_link(); ?></li>
                                     </ul>  

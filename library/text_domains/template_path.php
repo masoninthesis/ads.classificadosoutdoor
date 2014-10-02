@@ -38,7 +38,7 @@ define('TAG_ARC',__('Archivo de Etiqueta:',THEME_SLUG));
 define('SORRY_ERROR',__('Lo sentimos, ocurrió un error.',THEME_SLUG));
 define('UR_NM',__('Tu Nombre',THEME_SLUG));
 define('UR_EMAIL',__('Correo Electrónico',THEME_SLUG));
-define('C_WEBSITE',__('Página Web',THEME_SLUG));
+define('C_WEBSITE',__('P&#225;gina Web',THEME_SLUG));
 define('OPTIONAL',__('(Opcional)',THEME_SLUG));
 define('UR_MSG',__('Tu mensaje',THEME_SLUG));
 //taxonomy-tag.php

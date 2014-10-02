@@ -126,7 +126,7 @@
                                                             </a></h6>
                                                         <?php the_excerpt(); ?>
                                                         <ul class="post_meta">
-                                                            <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . AGO; ?></li>
+                                                            <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . HACE; ?></li>
                                                             <li class="cate"><?php echo $taxonomies; ?></li>
                                                             <li class="author"><?php echo BY; ?>&nbsp;<?php the_author_posts_link(); ?></li>
                                                         </ul>
@@ -207,7 +207,7 @@
                                                                 ?></a></h6>
                                                         <?php the_excerpt(); ?>
                                                         <ul class="post_meta">
-                                                            <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . AGO;
+                                                            <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . HACE;
                                                 ?></li>
                                                             <li class="cate"><?php echo $taxonomies; ?></li>
                                                             <li class="author"><?php echo BY; ?>&nbsp;<?php the_author_posts_link(); ?></li>
@@ -275,7 +275,7 @@
                                                             </a></h6>
                                                              <?php the_excerpt(); ?>
                                                         <ul class="post_meta">
-                                                            <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . AGO; ?></li>
+                                                            <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . HACE; ?></li>
                                                             <li class="cate"><?php echo $taxonomies; ?></li>
                                                             <li class="author"><?php echo BY; ?>&nbsp;<?php the_author_posts_link(); ?></li>
                                                         </ul>

@@ -46,7 +46,7 @@
                                             <h6 class="title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h6>
                                             <?php the_excerpt(); ?>
                                             <ul class="post_meta">
-                                                <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . AGO; ?></li>
+                                                <li class="estimate"><?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . HACE; ?></li>
                                                 <li class="cate"><?php echo $taxonomies; ?></li>
                                                 <li class="author"><?php echo BY; ?>&nbsp;<?php the_author_posts_link(); ?></li>
                                             </ul>
