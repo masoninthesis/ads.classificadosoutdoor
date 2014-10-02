@@ -33,7 +33,7 @@ define('ITMS',__('Items',THEME_SLUG));
 //cc_show_expire_ads
 define('EXPIRED_ADS',__('Your Expired Ads',THEME_SLUG));
 define('AD_TTLE',__('Ad Title',THEME_SLUG));
-define('CATES',__('Categories',THEME_SLUG));
+define('CATES',__('Categorías',THEME_SLUG));
 define('NO_ADS',__('You currently have no ads.',THEME_SLUG));
 //cc_show_leads
 define('UR_LEADS',__('Your Leads',THEME_SLUG));
@@ -65,7 +65,7 @@ define('EDIT_PROFILE',__('Edit Profile',THEME_SLUG));
 define('WELCOME',__('Welcome',THEME_SLUG));
 define('ACT_INFO',__('Account Information',THEME_SLUG));
 //edit_ad.php
-define('SLT_CAT',__('Select Category',THEME_SLUG));
+define('SLT_CAT',__('Seleccione Categor&#237;a',THEME_SLUG));
 define('DESC',__('Description',THEME_SLUG));
 define('UPDT',__('Update',THEME_SLUG));
 define('UPGRADE_NOTIFY',__('Want to Upgrade your Listing to Premium ?',THEME_SLUG));
