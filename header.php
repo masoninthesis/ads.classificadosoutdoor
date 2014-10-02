@@ -80,7 +80,7 @@
                     <div class="clear"></div>
                     <div class="header">
                         <div class="grid_16 alpha">
-                            <div class="logo"> <a href="<?php echo home_url(); ?>"><img src="http://masonlawlor.com//classificadosoutdoor/wp-content/themes/ClassificadosOnline/assets/img/Logo.png" alt="<?php bloginfo( 'name' ); ?>" /></a></div>
+                            <div class="logo"> <a href="<?php echo home_url(); ?>"><img src="<?php if ( cc_get_option( 'cc_logo' ) != '' ) { ?><?php echo cc_get_option( 'cc_logo' ); ?><?php } else { ?><?php echo get_template_directory_uri(); ?>/images/logo.png<?php } ?>" alt="<?php bloginfo( 'name' ); ?>" /></a></div>
                         </div>
                         <div class="grid_8 omega">                            
                             <div class="post_btn">

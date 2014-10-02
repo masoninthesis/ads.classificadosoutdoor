@@ -72,7 +72,7 @@
                         $style = "left;";
                     }
                     ?>
-                    <p style="float:<?php echo $style; ?>" class="copyright"><?php if(cc_get_option('cc_footertext') != ''){ echo cc_get_option('cc_footertext');} else{ ?>&copy; <?php echo date('Y'); ?> Clasificados Outoor. All Right Reserved.<?php } ?></p>
+                    <p style="float:<?php echo $style; ?>" class="copyright"><?php if(cc_get_option('cc_footertext') != ''){ echo cc_get_option('cc_footertext');} else{ ?>&copy; <?php echo date('Y'); ?> InkThemes. All Right Reserved.<?php } ?></p>
                 </div>
             </div>
         </div>
