@@ -76,13 +76,13 @@
 								<li class="logout"><a href="<?php echo wp_logout_url( home_url() ); ?>"><?php echo LOGOUT_HDR;?></a></li>
 							<?php endif; ?>
                         </ul>
-                    </div>  
+                    </div>
                     <div class="clear"></div>
                     <div class="header">
                         <div class="grid_16 alpha">
                             <div class="logo"> <a href="<?php echo home_url(); ?>"><img src="http://masonlawlor.com//classificadosoutdoor/wp-content/themes/ClassificadosOnline/assets/img/Logo.png" alt="<?php bloginfo( 'name' ); ?>" /></a></div>
                         </div>
-                        <div class="grid_8 omega">                            
+                        <div class="grid_8 omega">
                             <div class="post_btn">
                                 <a class="post_add_btn" href="<?php echo get_bloginfo( 'url' ) . '/' . CC_ADNEW; ?>"><span class="btn_left"></span><span class="btn_center"><?php
 										if ( cc_get_option( 'cc_adnew' ) != '' ) {
@@ -94,9 +94,9 @@
                             </div>
                         </div>
                         <div class="clear"></div>
-                        <!--Start Menu Wrapper -->
+                        <!--Start Menu Wrapper 
                         <div class="menu_wrapper">
-							<?php cc_nav(); ?> 
+							<?php cc_nav(); ?>
                             <div class="clear"></div>
                         </div>
                         <!--End Menu Wrapper-->
